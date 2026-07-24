@@ -176,11 +176,9 @@ Secure • Fast • Free
 </div>
 
 </div>
-  <script>
+<script>
 
 let t = 5;
-
-const telegramLink = "https://t.me/+Ya9Kv06WYTNlZTM9";
 
 const countdown = setInterval(function(){
 
@@ -194,13 +192,11 @@ document.getElementById("timer").innerHTML = t;
 
 clearInterval(countdown);
 
-/* Track button/redirect with Meta Pixel */
 if(typeof fbq !== "undefined"){
 fbq('track','Lead');
 }
 
-/* Redirect to Telegram */
-window.location.href = telegramLink;
+document.getElementById("timer").innerHTML = "Done";
 
 }
 
@@ -210,4 +206,3 @@ window.location.href = telegramLink;
 
 </body>
 </html>
-  
