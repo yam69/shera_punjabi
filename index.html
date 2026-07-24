@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','1341492941532454');
+fbq('track','PageView');
+</script>
+
+<noscript>
+<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1341492941532454&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Meta Pixel Code -->
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<title>SHERA PUNJAB™</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+  *{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:
+linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.85)),
+url('https://images.unsplash.com/photo-1540747913346-19e32dc3e97b?auto=format&fit=crop&w=1200&q=80');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+padding:18px;
+}
+
+.card{
+width:100%;
+max-width:410px;
+background:rgba(20,20,20,.95);
+border:1px solid rgba(255,215,0,.25);
+border-radius:28px;
+padding:24px;
+box-shadow:0 0 35px rgba(255,215,0,.18);
+backdrop-filter:blur(10px);
+}
+
+.logo{
+width:110px;
+height:110px;
+display:block;
+margin:auto;
+border-radius:50%;
+object-fit:cover;
+border:4px solid #FFD700;
+box-shadow:0 0 20px #FFD700;
+}
+
+h1{
+margin-top:18px;
+text-align:center;
+font-size:44px;
+font-weight:800;
+color:#FFD700;
+}
+
+.members{
+margin-top:5px;
+text-align:center;
+font-size:18px;
+color:#d9d9d9;
+}
+
+.list{
+margin-top:22px;
+}
+
+.item{
+padding:13px 0;
+font-size:18px;
+color:#fff;
+border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.timer{
+margin-top:22px;
+text-align:center;
+font-size:22px;
+font-weight:700;
+color:#FFD700;
+}
+
+.join{
+display:block;
+margin-top:18px;
+background:#FFD700;
+color:#111;
+text-decoration:none;
+text-align:center;
+padding:18px;
+font-size:22px;
+font-weight:800;
+border-radius:50px;
+box-shadow:0 0 18px rgba(255,215,0,.45);
+transition:.3s;
+}
+
+.join:hover{
+transform:scale(1.03);
+}
+
+.footer{
+margin-top:18px;
+text-align:center;
+font-size:15px;
+color:#bfbfbf;
+}</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+<img src="logo.jpg" class="logo">
+
+<h1>SHERA PUNJAB™</h1>
+
+<div class="members">
+23.2K+ Members
+</div>
+
+<div class="list">
+
+<div class="item">🏏 Professional Cricket Analysis</div>
+
+<div class="item">📊 Live Match Updates</div>
+
+<div class="item">⚡ Expert Match Insights</div>
+
+<div class="item">👥 Trusted Sports Community</div>
+
+</div>
+
+<div class="timer">
+⏳ Ends In <span id="timer">5</span>s
+</div>
+
+<a class="join"
+href="https://t.me/+Ya9Kv06WYTNlZTM9"
+target="_blank">
+
+🚀 JOIN FREE CHANNEL
+
+</a>
+
+<div class="footer">
+Secure • Fast • Free
+</div>
+
+</div>
+  <script>
+
+let t = 5;
+
+const telegramLink = "https://t.me/+Ya9Kv06WYTNlZTM9";
+
+const countdown = setInterval(function(){
+
+if(t > 0){
+
+t--;
+
+document.getElementById("timer").innerHTML = t;
+
+}else{
+
+clearInterval(countdown);
+
+/* Track button/redirect with Meta Pixel */
+if(typeof fbq !== "undefined"){
+fbq('track','Lead');
+}
+
+/* Redirect to Telegram */
+window.location.href = telegramLink;
+
+}
+
+},1000);
+
+</script>
+
+</body>
+</html>
+  
